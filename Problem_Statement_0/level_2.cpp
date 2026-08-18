@@ -54,7 +54,7 @@ int main(){
 
     while(choice!=3){
         data="";
-        cout<<"What do you want to do?"<<endl;
+        cout<<endl<<"What do you want to do?"<<endl;
         cout<<"For Processing a Shipment By Entering Data now, Enter 1..."<<endl;
         cout<<"For Processing Shipment Data From a File, Enter 2..."<<endl;
         cout<<"To Exit,Enter 3.."<<endl<<endl;
@@ -106,7 +106,7 @@ int main(){
                 list.insert({temp,i+1});
                 i++;
             }
-            cout<<"File Successfully Loaded and Data Stored.."<<endl;
+            cout<<"File Successfully Loaded and Data Stored.."<<endl<<endl;
         }
 
         for(int i=0;i<n;i++){
@@ -157,7 +157,7 @@ int main(){
             if(choice2==1){
                 //-----SORTING--------
                 merge_sort(weights,0,n-1);
-                cout<<"Sorted Weights are:- ";
+                cout<<endl<<"Sorted Weights are:- ";
                 for(int i=0;i<weights.size();i++){
                     cout<<weights[i]<<" ";
                 }
