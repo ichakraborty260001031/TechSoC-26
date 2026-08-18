@@ -1,11 +1,8 @@
 # 📝 Solution Documentation Template
-
-> **💡 Tip:** Copy this template to each problem folder as `documentation.md` and fill in your details!
-
 ---
 
 ## Problem Understanding
-**What the problem is asking:** [Explain in your own words]
+**What the problem demanded:-** [Explain in your own words]
 
 **Key concepts involved:** [List the main ideas/algorithms needed]
 
@@ -22,8 +19,8 @@
 ### **How I Applied These Concepts**
 [Explain how you used the concepts to solve the problem]
 
-### **Real-World Connections**
-[Where might you see this problem or similar concepts in real applications?]
+### **Potential Real-World Connections**
+This is one of the very few application based problems I have solved. The conecpts we use and the program we finally manage to build is absolutely like those CUI based management softwares.
 
 
 
