@@ -156,10 +156,12 @@ int main(){
             
             if(choice2==1){
                 //-----SORTING--------
-                merge_sort(weights,0,n-1);
+                vector<int> dummy;
+                dummy=weights;
+                merge_sort(dummy,0,n-1);
                 cout<<endl<<"Sorted Weights are:- ";
                 for(int i=0;i<weights.size();i++){
-                    cout<<weights[i]<<" ";
+                    cout<<dummy[i]<<" ";
                 }
                 cout<<endl;
             }else if(choice2==2){
@@ -199,7 +201,9 @@ int main(){
                 }
             }else if(choice2==5){
                 //-------SEARCHING KTH HEAVIEST CONTAINER--------
-                merge_sort(weights,0,n-1);
+                vector<int> dummy;
+                dummy=weights;
+                merge_sort(dummy,0,n-1);
                 int k;
                 cout<<"Enter K for the Kth Heaviest Container.."<<endl;
                 cin>>k;
@@ -210,7 +214,7 @@ int main(){
                     cout<<"Must have atleast one container.."<<endl;
                 }
                 else{
-                    cout<<k<<"th Heaviest Container has weight:- "<<weights[n-k]<<endl;
+                    cout<<k<<"th Heaviest Container has weight:- "<<dummy[n-k]<<endl;
                 }
             }else if(choice2==6){
                 break;
