@@ -185,9 +185,14 @@ int main(){
                 cout<<"Whats the Name of the file You Want?"<<endl;
                 cin>>name;
                 ofstream file(name);
-                file<<data;
-                cout<<"File successfully saved as "<<name<<endl;
-                file.close();
+                if(file.is_open()){
+                    file<<data;
+                    file.close();
+                    cout<<"File successfully saved as "<<name<<endl;
+                }else{
+                    cout << "Error writing to file." << endl;
+                }
+                
             }else if(choice2==4){
                 //-----SEARCHING CONTAINER BY WEIGHT-------
                 int w;
