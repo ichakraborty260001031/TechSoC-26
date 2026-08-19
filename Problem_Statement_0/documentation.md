@@ -20,7 +20,7 @@
 ## Conceptual Learning
 
 ### **New Concepts I Discovered**
-- **File I/O Stuff** Before attempting this project, I had zero idea on how to do File Handling and this project gave me the chance to Explore File I/O.Learnt how to use the `fstream()` library and how to read and save files.
+- **File I/O Stuff** Before attempting this project, I had zero idea on how to do File Handling and this project gave me the chance to Explore File I/O.Learnt how to use the `<fstream>` library and how to read and save files.
 
 ### **How I Applied These Concepts**
 - Implemented `merge_sort()` to arrange container weights in ascending order efficiently for both report generation and identifying the $K$-th heaviest container.
