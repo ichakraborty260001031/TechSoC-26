@@ -1,0 +1,41 @@
+Move,Power,Effect,healAmount
+Ember Strike,20,burn,0
+Flame Jab,25,none,0
+Fire Breath,32,burn,0
+Searing Kick,37,none,0
+Blazing Blitz,42,none,12
+Fireball,45,none,15
+Inferno Blast,50,none,0
+Heatwave,55,none,18
+Volcano Eruption,62,none,0
+Supernova,67,none,0
+Pebble Throw,17,buried,0
+Rock Smash,25,none,0
+Mud Slap,27,buried,0
+Boulder Toss,35,none,15
+Stone Spike,40,none,18
+Seismic Slam,45,none,0
+Earth Pillar,50,none,20
+Fissure Strike,55,none,0
+Rockslide Avalanche,60,none,0
+Tectonic Shatter,65,none,0
+Gust Slash,17,frozen,0
+Water Whip,20,none,0
+Aqua Jet,25,frozen,0
+Bubble Beam,32,frozen,0
+Torrent Slash,37,none,15
+Tidal Surge,42,none,18
+Ice Blade,45,frozen,0
+Frostbite,47,frozen,0
+Hydro Pump,55,none,0
+Tsunami Blast,60,none,0
+Wind Cutter,25,frozen,0
+Gale Force,30,burn,0
+Air Blade,35,buried,0
+Vacuum Strike,40,none,15
+Vortex Blast,45,none,18
+Cyclone Burst,50,none,0
+Tempest Slash,55,none,20
+Ocean Wrath,65,none,0
+Hurricane Strike,60,none,0
+Tornado Shatter,65,none,0
