@@ -1,4 +1,4 @@
-"""from decision_tree import Tree
+from decision_tree import Tree
 import numpy as np
 
 x = np.array([
@@ -183,34 +183,4 @@ for i in range(len(val_x)):
         correctC=correctC+1
     totalC=totalC+1
 print(f"Validation Accuracy: {correctC/totalC}")
-"""
-import numpy as np
-from naive_bayes import NaiveBayesCategorical
-x = np.array([
-    ["Sunny", "Hot",  "High",   "Weak"],
-    ["Sunny", "Hot",  "High",   "Strong"],
-    ["Overcast", "Hot", "High", "Weak"],
-    ["Rain",   "Mild", "High",  "Weak"],
-    ["Rain",   "Cool", "Normal","Weak"],
-    ["Rain",   "Cool", "Normal","Strong"],
-    ["Overcast", "Cool", "Normal", "Strong"],
-    ["Sunny", "Mild", "High",   "Weak"],
-    ["Sunny", "Cool", "Normal", "Weak"],
-    ["Rain",   "Mild", "Normal","Weak"],
-    ["Sunny", "Mild", "Normal", "Strong"],
-    ["Overcast", "Mild", "High", "Strong"],
-    ["Overcast", "Hot", "Normal", "Weak"],
-    ["Rain",   "Mild", "High",  "Strong"]
-])
 
-y = np.array([
-    "No", "No", "Yes", "Yes",
-    "Yes", "No", "Yes", "No",
-    "Yes", "Yes", "Yes", "Yes",
-    "Yes", "No"
-])
-
-model=NaiveBayesCategorical(x,y,0.3)
-model.train()
-predictions=np.array(model.predict(["Overcast","Mild", "Normal","Strong"]),dtype=object)
-print(f"{predictions[np.argmax(predictions[:,1])][0]}: {np.max(predictions[:,1]):.4f}")
